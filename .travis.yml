@@ -12,3 +12,4 @@ cache:
 script:
   - mvn -B cobertura:cobertura coveralls:cobertura
   - rm -rf $HOME/.m2/repository/com/samskivert/jmustache
+
